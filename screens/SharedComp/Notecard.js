@@ -7,7 +7,7 @@ function Notecard({ noteDetail, backupList, setBackhupList }) {
   const navigation = useNavigation();
   let deletePopUp = () => {
     Alert.alert(
-      "Are you sure, You want to delete this Note ?",
+      "Are you sure, you want to delete this Note ?",
       `Note Priority : ${noteDetail.noteColor.toUpperCase()} \nYour Note Title : ${
         noteDetail.noteTitle
       } \nYour Description : ${noteDetail.noteDescription} `,

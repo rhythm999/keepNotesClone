@@ -27,7 +27,7 @@ function AddNote({ route, navigation }) {
     } else {
       Alert.alert(
         "Data Missing",
-        "Your one or more propert is missing. Please fill all the details to save your note",
+        "One or more property is missing. Please fill all the details to save your note",
         [
           {
             text: "Cancel",
