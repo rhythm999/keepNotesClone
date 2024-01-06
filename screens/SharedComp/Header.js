@@ -1,8 +1,8 @@
-import { Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 function Header() {
   return (
-    <View>
+    <View style={styles.boxContainer}>
       <Text style={styles.title}>Google Keep</Text>
     </View>
   );
@@ -14,6 +14,14 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "600",
     color: "#F9C74F",
+  },
+  boxContainer: {
+    paddingTop: "10%",
+    justifyContent: "center",
+    alignItems: "center",
+    borderBottomWidth: 1,
+    borderColor: "yellow",
+    backgroundColor: "#ffffff",
   },
 });
 
