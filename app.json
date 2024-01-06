@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "googleKeepClone",
-    "slug": "googleKeepClone",
+    "name": "Keep Clone",
+    "slug": "keep-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "keepnotesclone.notesapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "027523e1-7435-4c35-bfa7-909b4ee34d9b"
+      }
     }
   }
 }

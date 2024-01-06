@@ -44,4 +44,12 @@ npm install
 
 npm start
 
+Features:-
+
+1. You can create new notes by clicking on the add icon on top right corner of your screen.
+2. You can edit your note by clicking on that particular note and then hit save icon.
+3. To delete a particular Note. You have to long press on that note.
+4. You have color filter as well , by clicking on that color you will be able to see all the notes which are marked for same color
+5. You can use search feature to find your desired note based on title and description of the note
+
 Suggestion: Download the expo app on your mobile and scan the QR code for easy access. You can use emulator as well.
